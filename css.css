@@ -18,7 +18,6 @@
 }
 
 #content{
-    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,4 +67,8 @@ button{
     right: 38px;
     border: 0px;
     background-color: white;
+}
+
+html{
+    height: 100%;
 }
