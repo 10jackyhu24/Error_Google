@@ -19,7 +19,7 @@ function gmail(){
 
 
 // photo
-var photo_link = ['photo/1.jpg', 'photo/2.jpg', 'photo/3.jpg', 'photo/4.jpg', 'photo/5.jpg', 'photo/6.jpg', 'photo/7.jpg', 'photo/8.jpg', 'photo/9.jpg', 'photo/10.jpg', 'photo/11.jpg', 'photo/12.jpg', 'photo/13.jpg', 'photo/14.jpg', 'photo/15.jpg', 'photo/16.jpg', 'photo/17.jpg', 'photo/18.jpg', 'photo/19.jpg', 'photo/20.jpg', 'photo/21.jpg', 'photo/22.jpg', 'photo/23.jpg', 'photo/24.jpg', 'photo/25.jpg', 'photo/26.jpg', 'photo/27.jpg', 'photo/28.jpg', 'photo/29.jpg', 'photo/30.jpg'];
+var photo_link = ['photo/1.jpg', 'photo/2.jpg', 'photo/3.jpg', 'photo/4.jpg', 'photo/5.jpg', 'photo/6.jpg', 'photo/7.jpg', 'photo/8.jpg', 'photo/9.jpg', 'photo/10.jpg', 'photo/11.jpg', 'photo/12.jpg', 'photo/13.jpg', 'photo/14.jpg', 'photo/15.jpg', 'photo/16.jpg', 'photo/17.jpg', 'photo/18.jpg', 'photo/19.jpg', 'photo/20.jpg', 'photo/21.jpg', 'photo/22.jpg', 'photo/23.jpg', 'photo/24.jpg', 'photo/25.jpg', 'photo/26.jpg', 'photo/27.jpg', 'photo/28.jpg', 'photo/29.jpg', 'photo/30.jpg', 'photo/31.jpg', 'photo/32.jpg', 'photo/33.jpg'];
 
 function photo(){
     document.body.style.background = `url(${photo_link[get_random_number(0, photo_link.length)]})`;
