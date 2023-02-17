@@ -25,6 +25,7 @@
 }
 
 #logo{
+    background-color: transparent;
     -webkit-user-drag: none;
     width: 300px;
     margin-bottom: 38px;
