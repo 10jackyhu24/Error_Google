@@ -65,11 +65,14 @@ button{
 }
 
 #Voice_input_icon{
-    -webkit-user-drag: none;
     position: relative;
     right: 38px;
     border: 0px;
     background-color: white;
+}
+
+#Voice_input_icon img{
+    -webkit-user-drag: none;
 }
 
 html{
